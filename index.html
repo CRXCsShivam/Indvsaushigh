@@ -1,0 +1,446 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+    <meta name="twitter:title" content="Australia vs India - Border Gavaskar Trophy - 3rd Test - Day 2 Highlights by CRICKTV">
+    <meta name="twitter:description" content="Australia vs India - Border Gavaskar Trophy - 3rd Test - Day 2 Highlights • Join Our Telegram @dtv_hindi">
+    <meta name="twitter:image" content="https://v3img.voot.com/jcvod/image/ef7c7f96-cff3-4dd5-bf16-bf48e69a4e19/dd5384114b0341c99fe2a7d1224e383f/1734258867.jpg">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3501680502223299"     
+    crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JW Player Example</title>
+  <style>
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      height: 100%
+    }
+
+    #player {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #000
+      display: block;
+    }
+
+    .jw-stats-item {
+      display: none;
+    }
+
+    body {
+      margin: 0px
+    }
+
+    .box-shadow {
+      width: 100%;
+      box-shadow: 9px 9px 8px #8c8c8c,
+        -29px -29px 58px #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+
+    }
+
+    .jwplayer.jw-flag-aspect-mode {
+      min-height: 30%;
+      max-height: 30%
+    }
+
+    #player p {
+      text-align: center;
+    }
+
+    .jw-icon-fullscreen path {
+      display: none;
+    }
+
+    .jw-icon-fullscreen svg {
+      background-image: url('https://player.cricktv.site/icon/full-screen.svg');
+      background-size: cover;
+      background-position: center;
+      margin-left: 5px;
+    }
+
+    .jw-icon-fullscreen.jw-off svg {
+      background-image: url('https://player.cricktv.site/icon/full-screen-exit.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+
+    .jw-icon-pip path {
+      display: none;
+    }
+
+    .jw-icon-pip svg {
+      background-image: url('https://player.cricktv.site/icon/pip-on.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 25px;
+      width: 25px;
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+
+    .jw-icon-pip.jw-off svg {
+      background-image: url('https://player.cricktv.site/icon/pip-off.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .jw-svg-icon-rewind path {
+      display: none;
+    }
+
+    .jw-svg-icon-rewind {
+      background-image: url("icon.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .jw-icon-rewind:hover .jw-svg-icon-rewind {
+      background-image: url("icon.svg");
+    }
+
+
+
+
+
+    .jw-state-paused .jw-svg-icon-play path {
+      display: none;
+    }
+
+    .jw-state-paused .jw-svg-icon-play {
+      background-image: url("https://player.cricktv.site/icon/play.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .jw-state-paused .jw-icon-playback:hover .jw-svg-icon-play {
+      background-image: url("https://player.cricktv.site/icon/pause.svg");
+    }
+
+    .jw-svg-icon-pause path {
+      display: none;
+    }
+
+    .jw-svg-icon-pause {
+      background-image: url("https://player.cricktv.site/icon/pause.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .jw-svg-icon-buffer path {
+      display: none;
+    }
+
+    .jw-svg-icon-buffer {
+      background-image: url("buffer.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+
+    .jw-svg-icon-volume-100 path {
+      display: none;
+    }
+
+    .jw-svg-icon-volume-100 {
+      background-image: url("https://player.cricktv.site/icon/sound.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-right: 5px;
+
+    }
+
+    .jw-icon-volume:hover .jw-svg-icon-volume-100 {
+      background-image: url("https://player.cricktv.site/icon/sound.svg");
+      margin-right: 5px;
+
+    }
+
+    .jw-svg-icon-volume-0 path {
+      display: none;
+    }
+
+    .jw-svg-icon-volume-0 {
+      background-image: url("https://player.cricktv.site/icon/mute.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-right: 5px;
+
+    }
+
+    .jw-icon-volume:hover .jw-svg-icon-volume-0 {
+      background-image: url("https://player.cricktv.site/icon/mute.svg");
+      margin-right: 5px;
+
+    }
+
+    .jw-svg-icon-settings path {
+      display: none;
+    }
+
+    .jw-svg-icon-settings {
+
+      background-image: url("https://player.cricktv.site/icon/setting.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-left: 5px;
+
+
+    }
+
+    #player .jw-rightclick-link {
+      display: none;
+    }
+
+    #player {
+      padding: 47.50% 0 0 0;
+      position: relative;
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden
+    }
+
+    .videoplayer {
+      margin: 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      border-radius: 10px;
+      height: 30%;
+      
+    }
+
+    /* CSS */
+    .button-54 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #000;
+      cursor: pointer;
+      border: 3px solid;
+      padding: 0.25em 0.5em;
+      box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+      position: relative;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      margin: 10px;
+    }
+
+    .button-54:active {
+      box-shadow: 0px 0px 0px 0px;
+      top: 5px;
+      left: 5px;
+    }
+
+    @media (min-width: 768px) {
+      .button-54 {
+        padding: 0.25em 0.75em;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+             .container {
+            text-align: center;
+            margin-top: 50px;
+            display: flex;
+          }
+          .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 4px;
+            margin-top: 10px;
+          }
+          .btn-secondary {
+            background-color: grey;
+          }
+          .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+          }
+          .modal-content {
+            background-color: white;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+            text-align: center;
+          }
+          .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+          }
+          .close:hover,
+          .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+          }
+          .list-group {
+            list-style-type: none;
+            padding: 0;
+          }
+          .list-group-item {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          .list-group-item a {
+            text-decoration: none;
+            color: #007bff;
+          }
+          .list-group-item a:hover {
+            text-decoration: underline;
+          }
+          
+  </style>
+
+
+
+
+</head>
+
+<body>
+  <script src="https://ssl.p.jwpcdn.com/player/v/8.33.2/jwplayer.js"></script>
+  <div class="videoplayer">
+    <div style="margin: 12px;" id="player">
+    
+    </div>
+    <!-- HTML !-->
+    <center>
+      <button class="button-54" role="button"><a href="https://t.me/+nJCypsY4VzlkZjdl">Join Telegram</a></button>
+      <button class="button-54" role="button"><a href="httpatsapp.com/channel/0029ozD6gNTB80F">Join Whatsapp</a></button>
+      <button id="openLanguageModalBtn" class="button-54" role="button">Change Language</button>
+ <div style="flex: 1; overflow: hidden;">
+ <!--      <iframe src="https://www.dtvhindi.in/latest-news/" title="Latest News from DTV Hindi" style="width: 100%; height: 1000px; border: none;"></iframe>
+ -->    </div>
+  
+      </center>
+  </div>
+  <script>
+    // Initialize the JW Player with dynamic values
+    function initializePlayer(fileUrl, thumbnailUrl) {
+      console.log('Initializing player with fileUrl:', fileUrl, 'and thumbnailUrl:', thumbnailUrl);
+      
+      var playerInstance = jwplayer('player');
+      playerInstance.setup({
+        width: "100%",
+        height: "100%",
+        key: "cLGMn8T20tGvW+0eXPhq4NNmLB57TrscPjd1IyJF84o=",
+        image: thumbnailUrl,
+        sources: [{ file: fileUrl }],
+        primary: "html5"
+      });
+      playerInstance.on('ready', function() {
+        playerInstance.addButton(
+          "https://player.cricktv.site/zoom222222.svg",
+          "Change Stretching",
+          function() {
+            const currentStretching = playerInstance.getConfig().stretching;
+            const stretchingModes = ["uniform", "exactfit", "fill"];
+            const nextIndex = (stretchingModes.indexOf(currentStretching) + 1) % stretchingModes.length;
+            const nextStretching = stretchingModes[nextIndex];
+            playerInstance.setConfig({ stretching: nextStretching });
+          },
+          "custom-button"
+        );
+      });
+    }
+    // Replace with actual values
+    const fileUrl = "https://ak-mediavod.jiocinema.com/jcvod/video/cac/s18_ausvsind_bgt2024_3rd_test_day2_hls_hindi_20241215/hindi/fhd/h264/stereo/1734259521/jiocinemanondrmdashiecis-3e361005a1a24c508d78d2cb0d1176f4/dash-mobile-premium-plain-28329fd6221b49f681607dc895d1c452/master.mpd?hdnts=st=1734264877~exp=1734265477~acl=/jcvod/video/cac/s18_ausvsind_bgt2024_3rd_test_day2_hls_hindi_20241215/hindi/fhd/h264/stereo/1734259521/jiocinemanondrmdashiecis-3e361005a1a24c508d78d2cb0d1176f4/dash-mobile-premium-plain-28329fd6221b49f681607dc895d1c452/*~id=9d7f68d0e87b4d2d8b30a83166c339e7~data=rqId=ca8e5926-17fa-42f7-aa58-e91db9025e71~hmac=0fae26912d4098668c70b432c58e73cda581b7a22516fcf45f56e31a6df0a075";
+    const thumbnailUrl = "https://v3img.voot.com/jcvod/image/ef7c7f96-cff3-4dd5-bf16-bf48e69a4e19/dd5384114b0341c99fe2a7d1224e383f/1734258867.jpg";
+    initializePlayer(fileUrl, thumbnailUrl);
+  </script>
+          <!-- Button to Open Language Selection Modal -->
+       
+        <!-- Language Selection Modal -->
+        <div id="languageModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h5>Select Your Language</h5>
+            <ul id="languageList" class="list-group">
+              <!-- Languages will be dynamically injected here -->
+            </ul>
+            <button type="button" class="btn btn-secondary" id="closeModalBtn">Close</button>
+          </div>
+              
+        </div>
+
+        <script>
+          // Language data from the API response
+          const languages = [{"assetId":"4076027","label":"English","id":"en"},{"assetId":"4076029","label":"हिन्दी","id":"hi"},{"assetId":"4076025","label":"தமிழ்","id":"ta"},{"assetId":"4076030","label":"తెలుగు","id":"te"},{"assetId":"4076028","label":"ಕನ್ನಡ","id":"kn"}];
+
+          // Select elements
+          const modal = document.getElementById('languageModal');
+          const openModalBtn = document.getElementById('openLanguageModalBtn');
+          const closeModalBtns = document.querySelectorAll('.close, #closeModalBtn');
+          const languageList = document.getElementById('languageList');
+
+          // Function to open the modal
+          function openModal() {
+            modal.style.display = 'block';
+          }
+
+          // Function to close the modal
+          function closeModal() {
+            modal.style.display = 'none';
+          }
+
+          // Open the modal on button click
+          openModalBtn.addEventListener('click', openModal);
+
+          // Close the modal on button or span click
+          closeModalBtns.forEach(btn => btn.addEventListener('click', closeModal));
+
+          // Close the modal if the user clicks outside of it
+          window.addEventListener('click', function(event) {
+            if (event.target == modal) {
+              closeModal();
+            }
+          });
+
+          // Inject language list dynamically with <a> tags
+          if (languages.length > 0) {
+            languages.forEach(language => {
+              const listItem = document.createElement('li');
+              listItem.className = 'list-group-item';
+              listItem.innerHTML = `<a href="/player?id=${language.assetId || id}&${language.id}">${language.label || 'Unknown'}</a>`;
+              languageList.appendChild(listItem);
+            });
+          } else {
+            const noLanguagesMsg = document.createElement('p');
+            noLanguagesMsg.textContent = 'No languages available.';
+            languageList.appendChild(noLanguagesMsg);
+          }
+        </script>
+ 
+</body>
+
+</html>
+Telegram Logo
